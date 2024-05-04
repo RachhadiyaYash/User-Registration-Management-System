@@ -255,16 +255,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `gender`, `address1`, `address2`, `country`, `state`, `city`, `technologies`, `username`, `password`, `profile_pic`, `created_at`) VALUES
-(135, 'Yash', 'Rachadiya', 'yashpatel@gmail.com', 'male', 'asdasd', 'Lathi - 365430', '3', '13', '59', 'JavaScript', 'Yash_', 'Yash@me2462002', 'uploads/profile_65ddcbb475df6.jpeg', '2024-03-06 03:28:20'),
-(137, 'yashimg', 'test', 'yash@gmail.co', 'male', 'yas', 'dfgdf', '4', '18', '76', 'CSS', 'dfgdfg', 'aer656 yhhfghfghdfghdfgh', 'uploads/profile_65ddcbb475df6.jpeg', '2024-03-06 03:29:19'),
-(138, 'Parth', 'Patel', 'parth@gmail.com', 'male', 'Adajan', 'Surat', '3', '13', '58', 'HTML, CSS, JavaScript', 'Happien@123', 'Happien@1234', 'uploads/download (4).jpeg', '2024-03-06 03:36:45'),
-(139, 'yash_____', '', 'yash@gmail.co', 'female', 'vcbcvbxcv', 'bcxbvcx', '', '', '117', 'HTML, CSS, JavaScript, PHP', 'root', 'password@1234', '', '2024-03-06 03:51:57'),
-(140, 'dfgdsfgsdsadas', '', 'tudfgdfg@gmail.in', 'female', 'vfdfgdfg', 'sadfsad', '2', '6', '28', 'CSS, JavaScript', 'sdafasdf', 'sadfsadf', 'uploads/profile_65ddcbb475df6.jpeg', '2024-03-06 04:10:11'),
-(141, 'yashaaaa', 'patel', 'yashpatel2462002@gmail.com', 'male', 'asdasdasd', '', '5', '25', '117', 'CSS, JavaScript', 'yash.rachhadiy', 'yash@me12', 'uploads/profile_65dd8b3ada4b2.jpeg', '2024-03-06 04:20:53'),
-(142, 'abcd', '', 'yash@gmail.com', 'female', 'asdasdsdfs', '', '2', '8', '39', 'HTML', 'fdsasd', 'asdasdasd', 'uploads/profile_65ddcbb475df6.jpeg', '2024-03-06 04:37:15'),
-(143, 'test', 'test', 'test@gmail.com', 'female', 'asdasd', 'aaaaaaaaaa', '1', '5', '24', 'JavaScript', 'yash@updated', 'yash@me123', 'uploads/profile_65ddcbb475df6.jpeg', '2024-03-06 04:49:57'),
-(144, 'sdfsdfsd', '', 'sdfa@gmail.com', 'female', 'yashd', 'asdasd', '2', '8', '40', 'CSS, JavaScript', 'fsdfdsgewrtg', 'ertwertwetasdasdasdasda', '', '2024-03-06 05:13:24'),
-(147, 'faijan', '', 'faiz@gmail.com', 'male', 'mahim', '1231456', '5', '21', '120', 'PHP', 'faijan', 'password@1234', 'uploads/profile_65dd85514ef15.jpeg', '2024-03-06 06:29:44');
+(148, 'John', 'Doe', 'john.doe@example.com', 'male', '123 Main St', 'Apt 101', 'US', 'CA', 'Los Angeles', 'JavaScript, HTML, CSS', 'john_doe', 'password123', 'uploads/profile_pic_1.jpeg', '2024-03-06 12:00:00'),
+(149, 'Alice', 'Smith', 'alice.smith@example.com', 'female', '456 Oak Ave', 'Unit 202', 'US', 'NY', 'New York', 'Python, SQL', 'alice_smith', 'p@ssw0rd', 'uploads/profile_pic_2.jpeg', '2024-03-06 12:15:00'),
+(150, 'Bob', 'Johnson', 'bob.johnson@example.com', 'male', '789 Elm St', 'Apt 303', 'US', 'TX', 'Houston', 'Java, C++, PHP', 'bob_johnson', 'qwerty', 'uploads/profile_pic_3.jpeg', '2024-03-06 12:30:00');
 
 --
 -- Indexes for dumped tables
